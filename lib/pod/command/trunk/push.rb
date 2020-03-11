@@ -67,7 +67,7 @@ module Pod
 
         def run
           update_master_repo
-          validate_podspec
+          #validate_podspec
           status, json = push_to_trunk
           update_master_repo
 
